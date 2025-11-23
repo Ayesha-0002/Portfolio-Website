@@ -8,11 +8,10 @@ Course:   Web Development
 ## Project Summary 
 This project converted the detailed Figma design into clean, live code using Tailwind CSS utility classes. It ensures the website is fully responsive, pixel-perfect, and highly optimized for fast performance.
  
-## Design Reference Files - Figma Design (.fig file): [Drive Link Here] - Project Documentation (Google Docs): [Link Here] 
- 
+## Figma Design 
+https://www.figma.com/design/LqxhRX2S0ANlyZRAVvJsZ6/Personal-portfolio-website?m=auto&t=ytZRQLyBBpN5g67h-6
 ## Live Preview (if applicable) 
-[GitHub Pages / Vercel Link] 
- 
+https://github.com/Ayesha-0002/Portfolio-Website.git
 ## Technologies Used - HTML - CSS - Tailwind CSS (CLI Version) 
  
 ## Color Palette and Typography 
@@ -32,4 +31,5 @@ BG color : F5FCFF
  
 ## Features - List features you implemented 
  
+
 ## Project Structure - This is an example structure, so import your own.
