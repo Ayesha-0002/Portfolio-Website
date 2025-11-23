@@ -19,7 +19,7 @@ List colors and font sizes used.   Roboto Font Family
 --primary-color: #5E3BEE 
 body color: 1C1E53
 heading color: 282938 
-BG color : F5FCFF
+BG color: F5FCFF
  --heading-1: 56px
   --heading-2: 48px
    --heading-3: 24px
@@ -29,7 +29,6 @@ BG color : F5FCFF
 
 
  
-## Features - List features you implemented 
- 
 
 ## Project Structure - This is an example structure, so import your own.
+
