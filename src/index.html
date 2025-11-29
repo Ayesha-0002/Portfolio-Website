@@ -1,0 +1,205 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="./output.css">
+</head>
+
+
+<body>
+
+
+
+  <!-- Navbar -->
+  <nav class="flex justify-between items-center w-full py-4 px-8 bg-white shadow-sm">
+    <div class="flex space-x-6 text-sm text-gray-600">
+      <a href="#" class="hover:text-purple-500">Home</a>
+      <a href="#" class="hover:text-purple-500">Portfolio</a>
+      <a href="#" class="hover:text-purple-500">About me</a>
+    </div>
+    <a href="#" class="border rounded px-3 py-1 text-xs hover:bg-purple-50 hover:text-purple-600 transition">Contact Me</a>
+  </nav>
+
+  <!-- Hero / Intro Section -->
+  <section class="flex flex-col md:flex-row items-center py-16 md:py-24 px-4 md:px-16 bg-white">
+    <div class="flex-1 space-y-6">
+      <h3 class="text-xs text-gray-400">Hey, I am Ayesha</h3>
+      <h1 class="text-3xl md:text-4xl font-bold text-gray-800 leading-snug">
+        I build <span class="text-purple-600">high-performing</span><br>
+        and digital experience
+      </h1>
+      <p class="text-base text-gray-600">
+        I specialize in custom WordPress development and strategic UI/UX design.
+        My focus is creating user-friendly websites that look great, work fast, and help businesses achieve their goals.
+      </p>
+      <a href="#" class="bg-purple-600 text-white px-6 py-2 rounded hover:bg-purple-700 text-sm font-medium inline-block">Get in touch</a>
+    </div>
+    <div class="flex-1 flex items-center justify-center mt-10 md:mt-0">
+      <div class="relative">
+        <div class="bg-blue-100 rounded-2xl w-72 h-72 flex items-center justify-center">
+          <!-- User Image here -->
+          <img src="../asserts/image/profile.png" alt="Profile" class="w-66 h-66 rounded-lg object-cover" />
+        </div>
+        <!-- Decorative stars/examples can be made with absolute SVGs if desired -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Expertise Section -->
+  <section class="py-16 px-4 md:px-16 bg-white">
+    <span class="text-xs text-gray-400 mb-4">My Skills</span>
+    <h2 class="font-bold text-2xl text-gray-800 mb-8">My Expertise</h2>
+    <div class="grid md:grid-cols-3 gap-8">
+      <!-- Card 1 -->
+      <div class="bg-blue-50 rounded-xl p-6">
+        <div class="mb-4 flex items-center justify-center">
+          <!-- Icon -->
+          <svg class="w-8 h-8 text-blue-400" fill="none" ...>  </svg>
+        </div>
+        <h4 class="font-semibold text-lg mb-2">WordPress</h4>
+        <p class="text-sm text-gray-600">Specializing in secure, scalable WordPress development, we engineer robust backend systems capable of supporting complex features and delivering high performance across all platforms.</p>
+      </div>
+      <!-- Card 2 -->
+      <div class="bg-purple-50 rounded-xl p-6">
+        <div class="mb-4 flex items-center justify-center">
+          <!-- Icon -->
+          <svg class="w-8 h-8 text-purple-400" fill="none" ...></svg>
+        </div>
+        <h4 class="font-semibold text-lg mb-2">UI & UX Design</h4>
+        <p class="text-sm text-gray-600">Applying aesthetic and color principles honed in Fashion Design, we craft intuitive user journeys, ensuring interfaces are beautiful, highly functional, and optimized for maximum conversion.</p>
+      </div>
+      <!-- Card 3 -->
+      <div class="bg-cyan-50 rounded-xl p-6">
+        <div class="mb-4 flex items-center justify-center">
+          <!-- Icon -->
+          <svg class="w-8 h-8 text-cyan-400" fill="none" ...></svg>
+        </div>
+        <h4 class="font-semibold text-lg mb-2">Web Development</h4>
+        <p class="text-sm text-gray-600">We execute clean, modern code using current standards, guaranteeing fast loading speeds, superior SEO integration, and long-term site maintainability for every digital solution.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Me Section -->
+  <section class="py-16 px-4 md:px-16 flex flex-col md:flex-row items-center gap-12 bg-white">
+    <div class="flex-1 flex items-center justify-center">
+      <div class="relative">
+        <div class="w-64 h-80 bg-purple-300 rounded-2xl">
+          <!-- User About photo -->
+          <img src="../asserts/image/profile.png" alt="About Me" class="absolute inset-5 rounded-2xl object-cover w-[220px] h-[270px]" />
+        </div>
+      </div>
+    </div>
+    <div class="flex-1">
+      <h2 class="text-xl font-bold  mb-2">About Me</h2>
+      <p class="text-gray-600 mb-2">I specialize in robust WordPress development, creating secure and scalable platforms. My work integrates meticulous UI/UX Design principles with clean coding practices...</p>
+      <p class="text-gray-600 mb-2">I am dedicated to strategic problem-solving and long-term project maintainability...</p>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section class="py-16 px-4 md:px-16 bg-white">
+    <span class="text-xs text-gray-400 ">Recents Projects</span>
+    <div class="flex justify-between items-center mb-8">
+      <h2 class="font-bold text-2xl text-gray-800">My Portfolio</h2>
+      <a href="#" class="bg-pink-500 text-white px-4 py-2 rounded text-xs font-medium hover:bg-pink-600">Visit My Dribbble</a>
+    </div>
+    <div class="grid md:grid-cols-3 gap-8">
+      <!-- Portfolio Item 1 -->
+      <div class="bg-gray-50 rounded-xl p-4 shadow">
+        <img src="../asserts/image/UI-UX.png" alt="UI/UX Case Study" class="rounded-md w-full inset-5 h-32  mb-4 object-cover" />
+        <h4 class="font-semibold text-lg">UI/UX Case Study</h4>
+        <p class="text-xs text-gray-600 mb-2">Highlights that the focus is on the process (UX) rather than just the final look.</p>
+        <a href="#" class="text-blue-500 text-xs hover:underline">View in Dribbble →</a>
+      </div>
+      <!-- Portfolio Item 2 -->
+      <div class="bg-gray-50 rounded-xl p-4 shadow">
+        <img src="../asserts/image/UI-UX.png" alt="Custom Web Solution" class="rounded-md w-full h-32 object-cover mb-4" />
+        <h4 class="font-semibold text-lg">Custom Web Solution</h4>
+        <p class="text-xs text-gray-600 mb-2">Implies the work involved complex coding and not just basic setup.</p>
+        <a href="#" class="text-blue-500 text-xs hover:underline">View in Dribbble →</a>
+      </div>
+      <!-- Portfolio Item 3 -->
+      <div class="bg-gray-50 rounded-xl p-4 shadow">
+        <img src="../asserts/image/UI-UX.png" alt="WordPress Website" class="rounded-md w-full h-32 object-cover mb-4" />
+        <h4 class="font-semibold text-lg">WordPress Website</h4>
+        <p class="text-xs text-gray-600 mb-2">Delivering scalable WordPress solutions: secure architecture with custom features and built-in SEO.</p>
+        <a href="#" class="text-blue-500 text-xs hover:underline">View in Dribbble →</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+  <section class="py-16 px-4 md:px-16 bg-white text-center">
+    <span class="text-center text-xs text-gray-400 ">Get in touch</span>
+    <h2 class="font-bold text-2xl text-gray-800 mb-8">Contact me</h2>
+    <p class="text-center text-xs text-gray-400  mb-8" >Share your project details to begin our collaboration.</p>
+    <form class="max-w-2xl mx-auto space-y-4">
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <input type="text" placeholder="First name" class="border p-2 rounded w-full" />
+        <input type="text" placeholder="Last name" class="border p-2 rounded w-full" />
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <input type="email" placeholder="Email" class="border p-2 rounded w-full" />
+        <input type="tel" placeholder="Phone number" class="border p-2 rounded w-full" />
+      </div>
+      <select class="border p-2 rounded w-full">
+        <option>Select one...</option>
+        <option>WordPress Website</option>
+        <option>UI/UX Design</option>
+        <option>Web Development</option>
+      </select>
+      <textarea rows="5" placeholder="Type your message..." class="border p-2 rounded w-full"></textarea>
+      <label class="flex items-center text-xs text-gray-600">
+        <input type="checkbox" class="mr-2"> I accept the terms
+      </label>
+      <button class="bg-purple-600 text-white px-6 py-2 rounded hover:bg-purple-700 text-sm font-medium">Submit</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+
+  <footer class="bg-gray-100 py-10 text-center text-xs text-gray-500">
+    <div class="flex justify-evenly ">
+
+      <div class=" flex display-center">
+        Made with <span class="text-pink-500  flex justify-center">♥</span> by Ayesha
+      </div>
+      <div class=" space-x-6  ">
+        <a href="#">Home</a>
+        <a href="#">Portfolio</a>
+        <a href="#">About me</a>
+        <a href="#">Contact</a>
+      </div>
+      
+      
+      <div class="flex space-x-4 text-gray-400 text-lg">
+        
+        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+    </div>
+
+
+    <hr class=" flex justify-center text-gray-400 py-8 w-90 ">
+
+<div class="flex justify-center ">
+
+  <div class="mt-4 text-xs">
+    Privacy Policy | Terms of Service | Cookies Settings
+  </div>
+</div>
+
+  </footer>
+<script>
+
+
+</script>
+
+</body>
+</html>
